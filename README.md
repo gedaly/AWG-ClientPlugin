@@ -1,4 +1,4 @@
-AwesomeWebGuyClientPlugin
+AWG-Client Plugin
 =========================
 
-Plugin for clients adding branding and links
+WordPress Plugin for clients adding branding and links
