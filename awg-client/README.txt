@@ -1,0 +1,18 @@
+=== AWG Client Plugin ===
+Contributors: gedaly
+
+For Awesome Web Guy Clients
+
+== Description ==
+
+Stuff
+* 1
+* 2
+* 3
+
+== Changelog ==
+
+= 0.1 =
+* First Commit
+* Custom Admin Footer 
+* Added Dropdown menu to Admin Bar
