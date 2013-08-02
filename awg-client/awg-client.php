@@ -1,10 +1,10 @@
 <?php
 
 /*
-Plugin Name: AWG-Client
+Plugin Name: awg-client
 Plugin URI: http://awesomewebguy.com/awg-client-plugin/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=plugin-uri
 Description: Adding helpful links for Awesome Web Guy design and support clients.
-Version: 0.3.1
+Version: 0.3
 Author: Gedaly Guberek
 Author URI: http://gedaly.com/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=author-uri
 */
