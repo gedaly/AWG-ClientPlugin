@@ -12,6 +12,10 @@ Stuff
 
 == Changelog ==
 
+0.3
+Added Github updater
+Delete TODO file
+
 0.2.1
 Added Google campaign parameters to links
 Fixed menu links
