@@ -12,6 +12,10 @@ Stuff
 
 == Changelog ==
 
+0.2.1
+Added Google campaign parameters to links
+Fixed menu links
+
 = 0.2 =
 * Added WP Lifeguard Videos
 
