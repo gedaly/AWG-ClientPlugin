@@ -4,7 +4,7 @@
 Plugin Name: AWG-Client
 Plugin URI: http://awesomewebguy.com/awg-client-plugin/
 Description: Adding helpful links for Awesome Web Guy design and support clients.
-Version: 0.1
+Version: 0.2
 Author: Gedaly Guberek
 Author URI: http://gedaly.com/
 */
