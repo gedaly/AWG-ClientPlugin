@@ -12,6 +12,9 @@ Stuff
 
 == Changelog ==
 
+= 0.2 =
+* Added WP Lifeguard Videos
+
 = 0.1 =
 * First Commit
 * Custom Admin Footer 
