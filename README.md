@@ -1,7 +1,7 @@
 AWG-Client Plugin
 =========================
 
-~Current Version:0.3~
+~Current Version:0.3.1~
 
 WordPress Plugin for clients adding branding and links
 

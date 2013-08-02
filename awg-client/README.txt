@@ -1,5 +1,5 @@
 === AWG Client Plugin ===
-~Current Version:0.3~
+~Current Version:0.3.1~
 Contributors: gedaly
 
 For Awesome Web Guy Clients
@@ -12,6 +12,9 @@ Stuff
 * 3
 
 == Changelog ==
+
+0.3.1
+fixed updater
 
 0.3
 Added Github updater

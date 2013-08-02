@@ -4,7 +4,7 @@
 Plugin Name: AWG-Client
 Plugin URI: http://awesomewebguy.com/awg-client-plugin/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=plugin-uri
 Description: Adding helpful links for Awesome Web Guy design and support clients.
-Version: 0.3
+Version: 0.3.1
 Author: Gedaly Guberek
 Author URI: http://gedaly.com/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=author-uri
 */
@@ -76,7 +76,7 @@ function lgap_main_page() {echo "<h2>" . __( 'Help Videos', 'menu-test' ) . "</h
 // Include github updater code
 // REF: https://github.com/jkudish/WordPress-GitHub-Plugin-Updater
 
-include_once('updater.php');
+include_once('github-updater.php');
 
 
 
