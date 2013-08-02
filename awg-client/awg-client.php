@@ -2,18 +2,18 @@
 
 /*
 Plugin Name: AWG-Client
-Plugin URI: http://awesomewebguy.com/awg-client-plugin/
+Plugin URI: http://awesomewebguy.com/awg-client-plugin/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=plugin-uri
 Description: Adding helpful links for Awesome Web Guy design and support clients.
-Version: 0.2
+Version: 0.2.1
 Author: Gedaly Guberek
-Author URI: http://gedaly.com/
+Author URI: http://gedaly.com/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=author-uri
 */
 
 
 // Add custom footer in admin section
 
 function awg_custom_footer_admin () {
-    echo 'Built by <a href="http://awesomewebguy.com" target="_blank">Awesome Web Guy</a> | <a href="mailto:gedaly@awesomewebguy.com?subject=Support Please [AWGwpf]">Email Support</a></p>';
+    echo 'Built by <a href="http://awesomewebguy.com/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=footer-link" target="_blank">Awesome Web Guy</a> | <a href="mailto:gedaly@awesomewebguy.com">Email Support</a></p>';
     }
 
     add_filter('admin_footer_text', 'awg_custom_footer_admin');
@@ -27,7 +27,7 @@ function awg_add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'awg-menu',
 		'title' => 'Awesome Web Guy',
-		'href'  => 'http://awesomewebguy.com',	
+		'href'  => 'http://awesomewebguy.com/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=wp-admin-bar-link',	
 		'meta'  => array(
 			'title' => __('Awesome Web Guy'),	
 			'target' => '_blank',		
@@ -36,10 +36,10 @@ function awg_add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'awg-support',
 		'parent' => 'awg-menu',
-		'title' => 'Support Area',
-		'href'  => 'http://awesomewebguy.com/support/',
+		'title' => 'Support',
+		'href'  => 'http://awesomewebguy.com/contact/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=wp-admin-bar-link',
 		'meta'  => array(
-			'title' => __('Support Area'),
+			'title' => __('Support'),
 			'target' => '_blank',
 			'class' => 'awg_menu_item_class'
 		),
@@ -47,10 +47,10 @@ function awg_add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'awg-wp-tutorials',
 		'parent' => 'awg-menu',
-		'title' => 'WordPress Tutorials',
-		'href'  => 'http://awesomewebguy.com/tutorials/wordpress/',
+		'title' => 'Blog & Tutorials',
+		'href'  => 'http://awesomewebguy.com/blog/?utm_source=wp-awg-plugin&utm_medium=link&utm_campaign=wp-admin-bar-link',
 		'meta'  => array(
-			'title' => __('WordPress Tutorials'),
+			'title' => __('Blog & Tutorials'),
 			'target' => '_blank',
 			'class' => 'awg_menu_item_class'
 		),
